@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="C:\Users\Professional\Folder for VS code\New lesson\css_lessons\styles_css\java_script.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="game">
+        <h1>Вгадай число!</h1>
+        <p>Спробуйте вгадати число</p>
+        <input type="number" id="maxNumber" placeholder="Введіть максимальне число">
+        <input type="number" id="minNumber" placeholder="Введіть мінімальне число">
+        <button onclick="random()">Прийняти</button>
+        <p id="confirmMessage" style="font-weight: bold; font-size: 22px; margin-top: 20px;"></p>
+        <input type="number" id="guessField" placeholder="Ваше число";>
+        <br>
+        <button id="checkBtn" onclick="checkGuess()">Перевірити</button>
+        <br>
+        <button onclick="restartGame()">Перезапустити гру</button>
+        <p id="resultMessage" style="font-weight: bold; font-size: 22px; margin-top: 20px;">Введіть число</p>
+        <script src="C:\Users\Professional\Folder for VS code\New lesson\css_lessons\script_js\script.js"></script>
+    </div>
+    <button onclick="newRandom()" style="margin: 10px; background-color: aqua;"></button>
+</body>
+</html>

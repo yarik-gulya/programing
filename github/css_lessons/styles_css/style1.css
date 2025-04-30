@@ -1,0 +1,99 @@
+.div{
+    border: 1px solid gray;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+    height: 350px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.heart{
+    display: inline-block;
+    width: 100px;
+}
+
+.img1{
+    width: 200px;
+}
+
+.p1{
+    text-align: center;
+    box-sizing: content-box;
+    width: 80%;
+    margin: 10%;
+    margin-bottom: 0;
+}
+.p1:hover{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    background-color: rgb(0, 102, 255);
+    cursor:grab;
+}
+
+.p2{
+    color: gray;
+    display: block;
+    text-decoration: line-through;
+    margin: 5%;
+    margin-left: 12%;
+    font-size: 20px;
+}
+
+.p3{
+    color: rgb(255, 8, 0);
+    font-size: 32px;
+    margin: 5%;
+    margin-left: 15%;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+/* Don't kill focus outline for keyboard users: http://24ways.org/2009/dont-lose-your-focus */
+a:hover, a:active {
+    outline: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

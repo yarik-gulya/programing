@@ -1,0 +1,34 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 1700px;
+}
+
+#maps{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: blanchedalmond;
+}
+
+#my_town{
+    display: inline;
+}
+
+.map{
+    display: flex;
+    width: 1200px;
+    height: 500px;
+    background-color: aliceblue;
+    border-radius: 70px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+iframe{
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}

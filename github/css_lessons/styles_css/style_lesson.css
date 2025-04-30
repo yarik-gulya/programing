@@ -1,0 +1,248 @@
+body{
+    background-color: black;
+}
+
+header{
+    background-image: url('venom.jpg');
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+section{
+    background-image: url('venom_section.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 3200px;
+    width: 100%;
+    position: relative;
+}
+
+#div{
+    color: aliceblue;
+    text-align: center;
+    font-size: 100px;
+    font-family: "Lacquer", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+}
+
+.name{
+    -webkit-text-stroke:3px darkred;
+    bottom: 20px;
+    left: 430px;
+}
+
+.The_last{
+    -webkit-text-stroke: 3px rgb(110, 3, 3);
+    top: 50px;
+    left: 200px;
+}
+
+.Dance{
+    -webkit-text-stroke: 3px rgb(110, 3, 3);
+    top: 50px;
+    right: 420px;
+}
+
+video{
+    height: auto;
+    width: 1000px;
+    left: 250px;
+    position: absolute;
+}
+
+h1{
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    -webkit-text-stroke:2px black;
+}
+
+.pictures{
+    position: absolute;
+    top: 850px;
+    left: 650px;
+}
+
+img{
+    width: 500px;
+    height: auto;
+    position: absolute;
+}
+
+.picture_1{
+    left: 250px;
+    top: 1000px;
+}
+
+.picture_2{
+    right: 250px;
+    top: 1000px;
+}
+
+.picture_3{
+    left: 250px;
+    top: 1250px;
+}
+
+.picture_4{
+    right: 259px;
+    top: 1250px;
+}
+
+.information{
+    position: absolute;
+    top: 1500px;
+}
+
+.more_info{
+    position: absolute;
+    text-align: center;
+    top: 1550px;
+    left: 600px;
+}
+
+h3{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    color:aliceblue;
+    font-size: 40px;
+}
+
+.cinema{
+    padding-left: 300px;
+    padding-top: 200px;
+}
+
+footer{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+p{
+    color: aliceblue;
+    padding-left: 40px;
+}
+
+.first{
+    padding: 10px;
+}
+
+.second{
+    padding: 10px;
+    padding-left: 300px;
+}
+
+#tech-pidtrymka{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+#sponsory{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+}
+
+.site{
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    right: 10px;
+    top: 500px;
+}
+
+#button{
+    background-image: url('up 2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: aliceblue; */
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+}
+
+#position{
+    position: absolute;
+    font-weight:lighter;
+    font-size: 13px;
+    right: 1px;
+    top: 20px;
+}
+
+#rules{
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    right: 30px;
+    bottom: 50px;
+}
+
+#about{
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    left: 1150px;
+    bottom: 50px;
+}
+
+#other{
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    left: 850px;
+    bottom: 50px;
+}
+
+#logo{
+    background-image: url('gradient_company_with_logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top:20px;
+    left: 550px;
+}
+
+#support{
+    background-image: url('support.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top:20px;
+    left: 900px; 
+}
+
+#marvel{
+    background-image: url('marvel.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 200px;
+    width: 300px;
+    bottom:0px;
+    left: 200px;  
+}

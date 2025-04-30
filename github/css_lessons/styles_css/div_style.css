@@ -1,0 +1,59 @@
+#first{
+    background-color: blue;
+    z-index: 1;
+}
+
+#second{
+    background-color: green;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+#third{
+    background-color: red;
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+}
+
+#fourth{
+    background-color: yellow;
+    top: 150px;
+    left: 150px;
+    z-index: 4;
+}
+
+body{
+    background-color: aqua;
+}
+
+.div{
+    height: 300px;
+    width: 300px; 
+    margin:10px;  
+}
+
+.div1{
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+
+#first1{
+    background-color: blue;
+}
+
+#second2{
+    background-color: green;
+}
+
+#third3{
+    background-color: red;
+}
+
+#fourth4{
+    background-color: yellow;
+}
